@@ -159,6 +159,233 @@
         </div>
 
         <div class="col-md-6">
+          <label class="form-label d-form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control d-form-input pending"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+          <div class="hint">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            hic -->
+          </div>
+        </div>
+
+        <div class="col-md-6" hidden>
+          <label class="form-label d-form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control d-form-input pending"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+          <div class="hint">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            hic -->
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label d-form-label">Number</label>
+          <select
+            class="form-select d-form-input invalid"
+            aria-label="Default select example"
+          >
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="hint">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            hic
+          </div>
+        </div>
+
+       
+          <fieldset class="col-md-12">
+            <legend>Address</legend>
+            <div class="row g-3">
+              <div class="col-md-6" >
+                <label class="form-label d-form-label">city</label>
+                <input
+                  type="text"
+                  class="form-control d-form-input pending"
+                  placeholder="city"
+                  aria-label="city"
+                />
+                <div class="hint">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                  hic -->
+                </div>
+            </div>
+            <div class="col-md-6" >
+              <label class="form-label d-form-label">country</label>
+              <input
+                type="text"
+                class="form-control d-form-input pending"
+                placeholder="country"
+                aria-label="country"
+              />
+              <div class="hint">
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                hic -->
+              </div>
+          </div>
+          </fieldset>
+
+          <fieldset class="col-md-6">
+            <legend class="form-label d-form-label">Payment</legend>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-check">
+                  <input
+                    class="form-check-input d-form-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label
+                    class="form-check-label d-form-label"
+                    for="flexRadioDefault1"
+                  >
+                    cash
+                  </label>
+                  <!-- <div class="hint">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    hic
+                  </div> -->
+                </div>
+              </div>
+      
+              <div class="col-md-6">
+                <div class="form-check">
+                  <input
+                    class="form-check-input d-form-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label
+                    class="form-check-label d-form-label"
+                    for="flexRadioDefault1"
+                  >
+                   visa
+                  </label>
+                  <!-- <div class="hint">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    hic
+                  </div> -->
+                </div>
+              </div>
+      
+            </div>
+          </fieldset>
+
+          <div class="col-md-6">
+            <label class="d-form-label form-label">Comment</label>
+            <textarea class="form-control d-form-input" id="validationTextarea" placeholder="Required example textarea" ></textarea>
+          </div>
+       
+        <div class="col-md-6">
+          <label for="date1" class="form-label d-form-label invalid">Date </label>
+          <input type="date" class="form-control d-form-input" id="date1">
+        </div>
+        <div class="col-md-6">
+          <label for="customRange1" class="form-label d-form-label">Example range</label>
+          <input type="range" class="form-range" id="customRange1">
+        </div>
+        <div class="col-md-12">
+          <div class="form-check">
+            <input
+              class="form-check-input d-form-input d-form-check"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label d-form-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+
+            <div class="hint">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              hic
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-check">
+            <input
+              class="form-check-input d-form-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label
+              class="form-check-label d-form-label"
+              for="flexRadioDefault1"
+            >
+              Default radio
+            </label>
+            <div class="hint">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              hic
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 d-buttons-row">
+          <div class="col-lg-1 col-md-3 col-sm-3">
+            <button type="submit" class="btn btn-primary d-form-btn shadow-sm">
+              Sign in
+            </button>
+          </div>
+
+          <div class="col-lg-1 col-md-3 col-sm-3">
+            <button type="reset" class="btn btn-primary d-form-btn">
+              clear
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <hr>
+
+    <div class="container mb-3">
+      <h2>form inline</h2>
+      <form id="form-grid" class="row g-3 d-form row-cols-lg-auto align-items-center">
+        <div class="col-md-6">
+          <label class="form-label d-form-label required">First name</label>
+          <input
+            type="text"
+            class="form-control d-form-input invalid"
+            placeholder="First name"
+            aria-label="First name"
+          />
+          <div class="hint error">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label d-form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control d-form-input pending"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+          <div class="hint">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            hic
+          </div>
+        </div>
+
+      
+        <!-- <div class="col-md-6">
           <label class="form-label d-form-label">Number</label>
           <select
             class="form-select d-form-input"
@@ -173,39 +400,58 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             hic
           </div>
+        </div> -->
+
+       
+       
+
+          
+         
+       
+
+        <div class="col-md-12">
+          <div class="form-check">
+            <input
+              class="form-check-input d-form-input d-form-check"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label d-form-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+
+            <div class="hint" hidden>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              hic
+            </div>
+          </div>
         </div>
 
-        <div class="col-md-12 form-check">
-          <input
-            class="form-check-input d-form-input d-form-check"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          />
-          <label class="form-check-label d-form-label" for="flexCheckDefault">
-            Default checkbox
-          </label>
-        </div>
-        <div class="col-md-12 form-check">
-          <input
-            class="form-check-input d-form-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault1"
-          />
-          <label class="form-check-label d-form-label" for="flexRadioDefault1">
-            Default radio
-          </label>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-3">
+        <!-- <div class="col-lg-1 col-md-3 col-sm-3">
           <button type="submit" class="btn btn-primary d-form-btn shadow-sm">
-            Sign in
+            submit
           </button>
         </div>
 
         <div class="col-lg-1 col-md-3 col-sm-3">
-          <button type="reset" class="btn btn-primary d-form-btn">clear</button>
+          <button type="reset" class="btn btn-primary d-form-btn">
+            clear
+          </button>
+        </div> -->
+
+        <div class="col-12 d-buttons-row" >
+          <div class="col-lg-1 col-md-3 col-sm-3">
+            <button type="submit" class="btn btn-primary d-form-btn shadow-sm">
+              submit
+            </button>
+          </div>
+
+          <!-- <div class="col-lg-1 col-md-3 col-sm-3">
+            <button type="reset" class="btn btn-primary d-form-btn">
+              clear
+            </button>
+          </div> -->
         </div>
       </form>
     </div>
