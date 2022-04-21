@@ -129,7 +129,7 @@
 
 .d-form .d-form-btn {
   width: 100%;
-  border-radius: 0.1em;
+  border-radius: var(--df-border-radius);
   min-width: fit-content;
 }
 
