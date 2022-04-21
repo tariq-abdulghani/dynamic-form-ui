@@ -1,6 +1,6 @@
 :root {
   /**/
-  --df-border-radius: 0.1em;
+  --df-border-radius: 0.25rem;
   --df-label-font-size: 0.75em;
   --df-hint-font-size: 0.65em;
   /**/
@@ -101,7 +101,12 @@
 
 .d-form legend {
   margin-bottom: 0;
-  font-size: 1.275rem;
+  /* font-size: 1.275rem; */
+}
+
+.d-form .radio-legend {
+  margin-bottom: 0;
+  font-size: inherit;
 }
 
 /*-------------------------------hint----------------------------------------------*/
